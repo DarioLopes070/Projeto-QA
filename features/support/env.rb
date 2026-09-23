@@ -1,3 +1,4 @@
+require 'dotenv/load'
 require 'capybara'
 require 'capybara/cucumber'
 require 'capybara/rspec'

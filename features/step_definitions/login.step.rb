@@ -15,6 +15,8 @@ Dado('que o usario queira se logar') do
 end
 
 Quando('ele digitar as credenciais validas') do
+    @test = LoginPage.new
+    @test.userLogin
 end
 
 Então('deve acessar o site com sucesso') do
